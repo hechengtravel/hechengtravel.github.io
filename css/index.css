@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+	
+body::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+section {
+    display: flex;
+    /* height: 1275px; */
+    /* overflow: hidden; */
+    height: 100vh;
+
+}
+
+.left {
+    width: 15%;
+    box-sizing: border-box;
+    padding-top: 1%;
+    background-color: #fdfef9;
+    /* background-color: #dac2a8; */
+    background-color: #3b624d;
+    color: white;
+    /* overflow: hidden; */
+    padding-top: 5%;
+}
+
+.title{
+    font-size: 30px;
+    height: 20%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.title img {
+    width: 120px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.left p:nth-child(4) {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    margin-top: 50%;
+}
+
+.nav li {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.right {
+    width: 85%;
+    /* background-color: red; */
+    overflow-y: auto;
+    /* background-color: #d5c4a8; */
+    background-color: #F5f5dc;
+    overflow-x: hidden;
+}
+
+.contact {
+    height: 80px;
+    /* background-color: red; */
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.right img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.contact span {
+    font-size: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: wheat;
+    color: grey;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+        color: white;
+}
+
+.nav li:hover {
+    color: white;
+}
+body{
+    color: wheat;
+}
+/* 动画 */
+@keyframes move-1 {
+    0% {
+        transform: translate(0, -500px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+@keyframes move-2 {
+    0% {
+        transform: translate(0, 500px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
