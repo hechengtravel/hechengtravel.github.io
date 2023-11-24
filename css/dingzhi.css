@@ -47,3 +47,36 @@
     font-size: 20px;
     font-weight: 600;
  }
+
+
+ @media all and (orientation:portrait){
+ .banner{
+   width: 100%;
+   height: auto;
+ }
+ .right{
+   padding: 0;
+   padding-bottom: 30px;
+ }
+ .banner img{
+   height: 200px;
+ }
+ .right-con{
+   display: block;
+ }
+
+ .sc{
+   width: 100%;
+   padding: 0;
+   margin-top: 50px;
+ }
+ .sc p{
+   font-size: 12px;
+   height: auto;
+   margin-top: 0;
+   margin-bottom: 10px;
+ }
+ .sc img{
+  border-radius: 10px;
+ }
+ }

@@ -10,3 +10,20 @@ h1 {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.conbanner{
+    width: 95%; 
+    display: block; 
+    margin: 0 auto; 
+    height: 600px;
+     margin-top: 50px;
+}
+@media all and (orientation:portrait){
+.conbanner{
+    height: 200px;
+}
+.right{
+    height: 100vh;
+}
+
+}
